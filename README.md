@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+🎧 Rhythmiq — Where Focus Meets Flow
+A modern study-music web application built for deep focus, productivity, and distraction-free work.
 
-## Project info
+🚀 Overview
+Rhythmiq is a web-based study music app designed to help students and professionals stay focused using curated playlists and seamless audio playback. The app offers a minimal, calming UI with smooth interactions and an intuitive flow.
+Users can create an account, log in, and instantly access study playlists powered by YouTube/Spotify APIs (depending on your implementation).
 
-**URL**: https://lovable.dev/projects/b8a8dc1b-7689-4aae-a506-b70c25910042
+🌟 Features
+🔐 Authentication
+Email/password login & signup
+Protected routes that require authentication
+Redirect to dashboard after login
 
-## How can I edit this code?
+🎵 Music Player
+Autoplay support
+Playlist selection
+Background playback
+Smooth transitions between tracks
+(Optional) YouTube audio-only integration
 
-There are several ways of editing your application.
+📚 Study-Focused Playlists
+Lo-Fi Beats
+Deep Focus
+Rainy Mood
+Piano Concentration
+Night Study Vibes
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b8a8dc1b-7689-4aae-a506-b70c25910042) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b8a8dc1b-7689-4aae-a506-b70c25910042) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🌓 Modern UI
+Clean dark theme
+Minimal distractions
+Responsive across all devices
+Fast-loading SPA powered by React/Vite
