@@ -68,14 +68,7 @@ const Home = () => {
             Get Started Free
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button 
-            size="lg"
-            variant="outline"
-            onClick={() => navigate('/app')}
-            className="px-8 py-6 text-lg font-semibold border-border/50 hover:bg-primary/10"
-          >
-            Try Without Account
-          </Button>
+          
         </div>
 
         {/* Features */}
